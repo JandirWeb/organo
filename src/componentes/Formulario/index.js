@@ -11,8 +11,8 @@ const Formulario = (props) => {
     const [imagem, setImagem] = useState('')
     const [time, setTime] = useState('')
 
-    const aoSalvar = (event) => {
-        event.preventDefault();
+    const aoSalvar = (evento) => {
+        evento.preventDefault()
         props.aoColaboradorCadastrado({
             nome,
             cargo,
