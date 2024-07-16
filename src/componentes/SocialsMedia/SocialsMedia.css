@@ -1,0 +1,10 @@
+.socials-media{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.socials-media img{
+    max-width: 20px;
+}

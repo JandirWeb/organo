@@ -1,0 +1,21 @@
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #6278f7;
+    padding: 50px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+
+footer .logo img{
+    max-width: 120px;
+}
+footer .developed{
+    font-size: 14px;
+    color: #fff;
+}
