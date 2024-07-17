@@ -3,6 +3,7 @@ import './Colaborador.css'
 const Colaborador = (props) => {
     return(
         <div className='colaborador'>
+            <div className='deletar' onClick={props.aoDeletar}>deletar</div>
             <div className='cabecalho' style={{background: props.cor}}>
                 <img src={props.imagem} alt={props.nome} />
             </div>
