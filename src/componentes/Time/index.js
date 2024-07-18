@@ -5,6 +5,7 @@ const Time = (props) => {
     return (
         props.colaboradores.length > 0 && 
         <section className='time' style={{ backgroundColor: props.corSecundaria }}>
+            <input onChange={evento => props.mudarCor(evento.target.value, props.nome)} value={props.corSecundaria} className='input-cor' type='color'/>
             <h3 style={{ borderColor: props.corPrimaria }}>{props.nome}</h3>
 
             <div className='colaboradores'>
